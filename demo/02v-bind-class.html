@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="./vue.js"></script>
+  <title>Document</title>
+  <style>
+    .box{
+      background-color: red;
+    }
+    .nav{
+      background-color: red;
+    }
+    .kb{
+      color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <p v-bind:class="{box:isbox}">我是p</p>
+    <span v-bind:class="[classnav,classkb]">我是span2</span>
+    <div :class="[classnav, {kb: isbox}]">1</div>
+</body>
+<script>
+  var app = new Vue({
+    el:'#app',
+    data:{
+      ids: 'baidu',
+      isbox: true,
+      classnav: 'nav',
+      classkb: 'kb',
+    }
+  })
+</script>
+</html>

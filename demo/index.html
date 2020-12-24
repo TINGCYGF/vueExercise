@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        {{user_data}}
+    </div>
+</body>
+<SCript>
+    //引入Vue，就会在全局作用于声明一个构造函数
+    //VUE一旦被new，就是实例化
+    var app = new Vue({
+        el:'#app',
+        data:{
+            user_data: 'hhhh'
+        }
+    });
+    console.log(app);
+    
+</SCript>
+</html>

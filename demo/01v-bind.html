@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="./vue.js"></script>
+  <title>Document</title>
+  <style>
+    .box{
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <a v-bind:href="'http://www.baidu.com?id='+ids">baidu</a>
+    <p v-bind:class="{box:isbox}">我是p</p>
+  </div>
+</body>
+<script>
+  var app = new Vue({
+    el:'#app',
+    data:{
+      ids: 'baidu',
+      isbox: false,
+    }
+  })
+</script>
+</html>
