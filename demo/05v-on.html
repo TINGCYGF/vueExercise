@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="./vue.js"></script>
+</head>
+<body>
+  <div id="app">
+
+    <input type="button" value="按钮1" v-on:click="ffun">
+    <input type="button" value="按钮2" v-on:click="ddun(2,3,$event)">
+
+
+  </div>
+</body>
+<script>
+  var app = new Vue({
+    el: '#app',
+    //专门存放数据
+    data: {
+
+    },
+    //专门存放vue的方法
+    methods:{
+      ffun:function(ev){
+        //不传默认接收event
+        alert(ev.target.value);
+      },
+      //同时传参数和event
+      ddun:function(a,b,ev){
+        console.log(ev.target.value);
+        console.log(a);
+        console.log(b);
+      }
+    }
+  })
+</script>
+</html>
