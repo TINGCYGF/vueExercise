@@ -81,7 +81,11 @@
 					}else {
 						//获取文本内容
 						this.inp_data;
-						var obj = {id: this.tuduData[this.tuduData.length-1].id+1, content: this.inp_data, status: false};
+						if(this.tuduData.length === 0){
+							var obj = {id: 1, content: this.inp_data, status: false};
+						}else {
+							var obj = {id: this.tuduData[this.tuduData.length - 1].id + 1, content: this.inp_data, status: false};
+						}
 						//加入对象
 						this.tuduData.push(obj);
 						//清空文本内容
@@ -105,7 +109,10 @@
 					}
 				},
 				//清除已完成
-
+				cleanAll(){
+					this.tuduData = this.tuduData.filter(obj => !obj.status)
+				},
+				//
 			}
 		})
 

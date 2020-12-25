@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="541c29e1-4a23-439b-b5f8-ad41a4bc103b" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/demo/08v-cloak.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/todomvc-template/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/todomvc-template/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/todomvc-template/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/todomvc-template/node_modules/todomvc-app-css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/todomvc-template/node_modules/todomvc-app-css/license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/todomvc-template/node_modules/todomvc-app-css/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/todomvc-template/node_modules/todomvc-app-css/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/todomvc-template/node_modules/todomvc-common/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/todomvc-template/node_modules/todomvc-common/base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/todomvc-template/node_modules/todomvc-common/license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/todomvc-template/node_modules/todomvc-common/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/todomvc-template/node_modules/todomvc-common/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todomvc-template/vue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/07v-fro.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/07v-fro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todomvc-template/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/todomvc-template/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,10 +18,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/todomvc-template/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="57" column="56" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
+            <state relative-caret-position="324">
+              <caret line="84" column="71" selection-start-line="84" selection-start-column="71" selection-end-line="84" selection-end-column="71" />
               <folding>
-                <element signature="e#2236#2519#0" />
+                <element signature="e#2595#2608#0" />
+                <element signature="e#2754#2895#0" />
               </folding>
             </state>
           </provider>
@@ -70,8 +56,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="821" />
-    <option name="width" value="1137" />
+    <option name="x" value="395" />
+    <option name="width" value="1539" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -145,12 +131,12 @@
       <option name="presentableId" value="Default" />
       <updated>1608770844466</updated>
       <workItem from="1608770846774" duration="24403000" />
-      <workItem from="1608856088262" duration="6498000" />
+      <workItem from="1608856088262" duration="8541000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30901000" />
+    <option name="totallyTimeSpent" value="32944000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -162,7 +148,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="657" y="0" width="909" height="830" extended-state="0" />
+    <frame x="316" y="0" width="1231" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.20394737" />
@@ -179,7 +165,7 @@
       <window_info anchor="bottom" id="运行" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.33045977" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32853025" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="调试" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -271,10 +257,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/todomvc-template/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="57" column="56" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
+        <state relative-caret-position="324">
+          <caret line="84" column="71" selection-start-line="84" selection-start-column="71" selection-end-line="84" selection-end-column="71" />
           <folding>
-            <element signature="e#2236#2519#0" />
+            <element signature="e#2595#2608#0" />
+            <element signature="e#2754#2895#0" />
           </folding>
         </state>
       </provider>
