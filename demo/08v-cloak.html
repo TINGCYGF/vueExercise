@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    [v-clock]{
+      display:none;
+    }
+  </style>
+</head>
+<body>
+<div id="app" v-clock><!--vue解析前存在，解析后消失-->
+  <!--避免后面函数未渲染完成显示错误-->
+  <P v-html="url"></P><!--解析标签-->
+  <P>url</P><!--输出标签-->
+  <p v-tixt="url">{{这里内容会被覆盖}}</p>
+  <p v-pro>{{在这里打什么内容都会显示}}</p>
+
+</div>
+<script src="./vue.js"></script>
+<script>
+  const app = new Vue({
+    el: '#app',
+    data: {
+      massage: '你好呀',
+      url: '<a href="http://www.baidu.com">百度一下</a>'
+    }
+  })
+</script>
+</body>
+</html>

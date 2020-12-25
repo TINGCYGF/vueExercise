@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>TING-todoList</title>
+		<link rel="stylesheet" href="node_modules/todomvc-common/base.css">
+		<link rel="stylesheet" href="node_modules/todomvc-app-css/index.css">
+		<script src="./vue.js"></script>
+	</head>
+	<body>
+		<section class="todoapp" id="app">
+			<header class="header">
+				<h1>{{TING}}</h1>
+				<input class="new-todo" placeholder="写下你的待办事项并回车" v-model.trim="inp_data" @keyup.enter="addTodo" autofocus>
+			</header>
+
+
+			<section class="main">
+				<input id="toggle-all" class="toggle-all" type="checkbox" @click="selete" v-model="all">
+				<label for="toggle-all">全部标记完成</label>
+				<ul class="todo-list">
+					<!--代办内容列表-->
+					<li v-bind:class="{completed:val.status}" v-for="(val,key) in tuduData">
+						<div class="view">
+							<input class="toggle" type="checkbox" v-model="val.status">
+							<label>{{val.content}}</label>
+							<button class="destroy" @click="delt(val.id)" ></button>
+						</div>
+						<input class="edit" value="Create a TodoMVC template">
+					</li>
+<!--					<li>-->
+<!--						<div class="view">-->
+<!--							<input class="toggle" type="checkbox" checked>-->
+<!--							<label>我被选中</label>-->
+<!--							<button class="destroy"></button>-->
+<!--						</div>-->
+<!--						<input class="edit" value="Rule the web">-->
+<!--					</li>-->
+				</ul>
+			</section>
+			<footer class="footer">
+				<!-- This should be `0 items left` by default -->
+				<span class="todo-count"><strong>0</strong> item left</span>
+				<!-- Remove this if you don't implement routing -->
+				<ul class="filters">
+					<li>
+						<a class="selected" href="#">All</a>
+					</li>
+					<li>
+						<a href="#/active">Active</a>
+					</li>
+					<li>
+						<a href="#/completed">Completed</a>
+					</li>
+				</ul>
+
+				<button class="clear-completed" @click="cleanAll">清除已完成</button>
+			</footer>
+		</section>
+
+	</body>
+	<script>
+		var listDatas = [
+			{id:1,content:'代表事项1',status:true},
+			{id:2,content:'代办事项2',status:false}
+		];
+		var app = new Vue({
+			el: '#app',
+			data: {
+				TING: 'TING',
+				tuduData: listDatas,
+				inp_data: '',
+				all: false,
+			},
+			methods: {
+				//添加任务
+				addTodo(){
+					if(this.inp_data === ''){
+						alert('内容不能为空')
+					}else {
+						//获取文本内容
+						this.inp_data;
+						var obj = {id: this.tuduData[this.tuduData.length-1].id+1, content: this.inp_data, status: false};
+						//加入对象
+						this.tuduData.push(obj);
+						//清空文本内容
+						this.inp_data = ''
+					}
+				},
+				//全选和全不选
+				selete(){
+					//事件优先级比较高，再改值
+					var c = !this.all;
+					for(let i=0;i<this.tuduData.length;i++){
+						this.tuduData[i].status = c;
+					}
+				},
+				//删除点X
+				delt(id){
+					for(let i=0; i<this.tuduData.length; i++){
+						if(id === this.tuduData[i].id){
+							this.tuduData.splice(i,1)
+						}
+					}
+				},
+				//清除已完成
+
+			}
+		})
+
+	</script>
+</html>
