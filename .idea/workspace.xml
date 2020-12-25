@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="541c29e1-4a23-439b-b5f8-ad41a4bc103b" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/todomvc-template/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/todomvc-template/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/axios/promise/yibu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/09监听器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/10.ref.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/11过滤器filters.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/12自定义指令.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/josn-server/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/todomvc-template/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/todomvc-template/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/todomvc-template/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/todomvc-template/node_modules/todomvc-app-css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/todomvc-template/node_modules/todomvc-app-css/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/todomvc-template/node_modules/todomvc-app-css/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/todomvc-template/node_modules/todomvc-app-css/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/todomvc-template/node_modules/todomvc-common/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/todomvc-template/node_modules/todomvc-common/base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/todomvc-template/node_modules/todomvc-common/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/todomvc-template/node_modules/todomvc-common/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/todomvc-template/node_modules/todomvc-common/readme.md" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,15 +33,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/todomvc-template/index.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/josn-server/db.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="84" column="71" selection-start-line="84" selection-start-column="71" selection-end-line="84" selection-end-column="71" />
-              <folding>
-                <element signature="e#2595#2608#0" />
-                <element signature="e#2754#2895#0" />
-              </folding>
+            <state relative-caret-position="297">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/axios/promise/yibu.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -33,6 +56,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>select</find>
+      <find>click</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -52,12 +76,19 @@
         <option value="$PROJECT_DIR$/demo/07v-fro.html" />
         <option value="$PROJECT_DIR$/demo/08v-cloak.html" />
         <option value="$PROJECT_DIR$/todomvc-template/index.html" />
+        <option value="$PROJECT_DIR$/demo/09监听器.html" />
+        <option value="$PROJECT_DIR$/demo/10.ref.html" />
+        <option value="$PROJECT_DIR$/demo/11过滤器filters.html" />
+        <option value="$PROJECT_DIR$/demo/12自定义指令.html" />
+        <option value="$PROJECT_DIR$/josn-server/db.json" />
+        <option value="$PROJECT_DIR$/axios/promise/yibu.jd" />
+        <option value="$PROJECT_DIR$/axios/promise/yibu.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="395" />
-    <option name="width" value="1539" />
+    <option name="x" value="842" />
+    <option name="width" value="1093" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -77,6 +108,22 @@
             <path>
               <item name="vueExercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="vueExercise" type="462c0819:PsiDirectoryNode" />
+              <item name="axios" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vueExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vueExercise" type="462c0819:PsiDirectoryNode" />
+              <item name="axios" type="462c0819:PsiDirectoryNode" />
+              <item name="promise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vueExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vueExercise" type="462c0819:PsiDirectoryNode" />
+              <item name="josn-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vueExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vueExercise" type="462c0819:PsiDirectoryNode" />
               <item name="todomvc-template" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -88,7 +135,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/todomvc-template" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -99,13 +146,13 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GZWJ\Web\vueExercise\demo" />
+      <recent name="D:\GZWJ\Web\vueExercise\todomvc-template" />
+      <recent name="D:\GZWJ\Web\vueExercise\demo\dist" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GZWJ\Web\vueExercise" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\GZWJ\Web\vueExercise\todomvc-template" />
-      <recent name="D:\GZWJ\Web\vueExercise\demo" />
-      <recent name="D:\GZWJ\Web\vueExercise\demo\dist" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -131,12 +178,12 @@
       <option name="presentableId" value="Default" />
       <updated>1608770844466</updated>
       <workItem from="1608770846774" duration="24403000" />
-      <workItem from="1608856088262" duration="8541000" />
+      <workItem from="1608856088262" duration="20826000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32944000" />
+    <option name="totallyTimeSpent" value="45229000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -148,10 +195,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="316" y="0" width="1231" height="830" extended-state="0" />
+    <frame x="674" y="0" width="874" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.20394737" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2124105" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -160,12 +207,12 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32998565" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299712" />
       <window_info anchor="bottom" id="找到" order="7" />
       <window_info anchor="bottom" id="运行" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32853025" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3994253" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="调试" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -202,13 +249,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/todomvc-template/js/app.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/08v-cloak.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/07v-fro.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -257,12 +297,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/todomvc-template/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="84" column="71" selection-start-line="84" selection-start-column="71" selection-end-line="84" selection-end-column="71" />
+        <state relative-caret-position="344">
+          <caret line="111" column="19" lean-forward="true" selection-start-line="111" selection-start-column="19" selection-end-line="111" selection-end-column="19" />
           <folding>
             <element signature="e#2595#2608#0" />
             <element signature="e#2754#2895#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/todomvc-template/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1701" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/09监听器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="11" selection-start-line="11" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/10.ref.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="11" selection-start-line="11" selection-end-line="25" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/11过滤器filters.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/12自定义指令.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="11" selection-start-line="11" selection-end-line="30" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/08v-cloak.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/josn-server/db.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/axios/promise/yibu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
     </entry>

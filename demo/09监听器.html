@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="./vue.js"></script>
+</head>
+<body>
+  <div id="app">
+    <input type="text" v-model="x"><br>
+    <input type="text" v-model="y"><br>
+    {{das}}
+  </div>
+</body>
+<script>
+  var app = new Vue({
+    el:'#app',
+    data:{
+      x: 'Ting',
+      y: 'TT',
+      das: '',
+    },
+    //侦听器，data里面的数据变化就会执行x对应的函数
+    watch:{
+      //侦听器以data数据名命名
+      x(newtt,oldtt){
+        console.log(newtt)
+      }
+    }
+  })
+</script>
+</html>

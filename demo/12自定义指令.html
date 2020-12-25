@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="./vue.js"></script>
+</head>
+<body>
+<div id="app">
+  <p v-color="red">变红色</p>
+  <input type="text" v-model="meg">
+<!--  修改文本框无法响应变为其他颜色-->
+</div>
+</body>
+<script>
+  var app = new Vue({
+    el: '#app',
+    data: {
+      meg: 'red'
+    },
+    directives:{
+      color:{
+        inserted(el,data){
+          el.style.background = data.value;
+        }
+      }
+    }
+  })
+</script>
+</html>

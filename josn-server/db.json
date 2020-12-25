@@ -1,0 +1,12 @@
+{
+  "posts": [
+    { "id": 1, "title": "asdasdac", "author": "asdasa" },
+    { "id": 2, "title": "asdajs", "author": "asaac" },
+    { "id": 3, "title": "askdhao", "author": "asdadac" },
+    { "id": 4, "title": "piangte", "author": "qwdasca" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" }
+}

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="./vue.js"></script>
+</head>
+<body>
+<div id="app">
+  <input type="text" v-model="meg">
+  <h1>{{meg|myf|nu}}</h1>
+</div>
+</body>
+<script>
+  Vue.filter('myf',(val)=>{
+    return val.toUpperCase()
+  });
+  Vue.filter('nu',(val)=>{
+    let reg = /\d/g;
+    return val.replace(reg, '*');
+  });
+  var app = new Vue({
+    el: '#app',
+    data: {
+      meg: ''
+    },
+  })
+</script>
+</html>
