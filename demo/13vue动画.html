@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="./vue.js"></script>
+  <style>
+    fade-leave-active{
+      transition: opacity 2s;
+    }
+    fade-leave-to{
+      opacity: 0;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <transition name="fade">
+    <p v-if="show">显示</p>
+    </transition>
+    <input type="button" value="按钮" @click="cli">
+
+  </div>
+</body>
+<script>
+  let app = new Vue({
+    el: '#app',
+    data: {
+      show: false,
+    },
+    methods: {
+      cli(){
+        this.show = !this.show;
+      }
+    }
+  })
+</script>
+</html>

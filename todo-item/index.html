@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="./vue.js"></script>
+</head>
+<body>
+  <div id="app">
+    <item2>1</item2>
+    <item1>这里不显示</item1>
+
+  </div>
+</body>
+<script>
+  //声明全局组件
+  //（“组件名”， 对象）
+  Vue.component('item1',{
+    //template属性为展示的内容
+    template:"<p>组件item1</p>"
+  });
+
+  let app = new Vue({
+    el: '#app',
+    data: {
+      msg: '123'
+    },
+    //声明局部（私有）组件
+    components:{
+      item2: {
+        template: "<span>组件item2</span>"
+      }
+    }
+
+  })
+</script>
+</html>

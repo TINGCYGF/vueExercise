@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="./axios.js"></script>
+</head>
+<body>
+</body>
+  <script>
+    // axios.get(' http://localhost:3000/todoList/3').then(function(backData){
+    //     console.log(backData);
+    // }).catch(function(err){
+    //     console.log(err);
+    // })
+
+    // axios.post('http://localhost:3000/todoList',{id:4,title:'烫头',status:false})
+    // .then(function(backdata){
+    //     console.log(backdata);
+    // })
+
+    axios({
+      method: 'DELETE',
+      url:'http://localhost:3000/todoList',
+      data:{
+        title: "提娜佳"
+      }
+    })
+  </script>
+</html>
