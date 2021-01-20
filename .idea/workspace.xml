@@ -36,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state>
+              <caret selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -205,12 +205,12 @@
       <workItem from="1611024673898" duration="162000" />
       <workItem from="1611024856740" duration="12560000" />
       <workItem from="1611048841851" duration="1635000" />
-      <workItem from="1611103621519" duration="11906000" />
+      <workItem from="1611103621519" duration="12471000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118496000" />
+    <option name="totallyTimeSpent" value="119061000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -238,7 +238,7 @@
       <window_info anchor="bottom" id="运行" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.87068963" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.55172414" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="调试" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -565,8 +565,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state>
+          <caret selection-end-column="12" />
         </state>
       </provider>
     </entry>
