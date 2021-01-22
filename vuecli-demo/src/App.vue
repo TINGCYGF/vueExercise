@@ -6,8 +6,6 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'App',
   data(){
@@ -23,8 +21,5 @@ export default {
 }
 </script>
 
-<style lang="scss">
-#app {
-
-}
+<style>
 </style>
